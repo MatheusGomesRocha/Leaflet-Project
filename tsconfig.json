@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx", // Certifique-se de que essa opção está configurada
+    "esModuleInterop": true,
+    "types": ["leaflet"]
+  }
+}
