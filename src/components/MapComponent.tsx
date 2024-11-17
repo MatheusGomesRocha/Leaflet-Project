@@ -74,7 +74,7 @@ const MapComponent: React.FC = () => {
   return (
     <div className="flex flex-col h-[100vh] items-center bg-[#121212] justify-center">
       <div className="max-w-[500px] w-[100%] mx-auto mt-10 p-6 bg-[#1f1f1f] shadow-lg rounded-lg">
-        <h2 data-testid="text-location" className="text-2xl font-semibold text-gray-800 mb-4 text-center text-[#e0e0e0]">
+        <h2 data-testid="text-location" className="text-2xl font-semibold text-gray-800 mb-4 text-center text-[#fff]">
           Search Location
         </h2>
         <PlacesAutocomplete 
